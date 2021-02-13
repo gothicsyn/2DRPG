@@ -1,0 +1,309 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8436893285129292087
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8436893285129292084}
+  - component: {fileID: 8436893285129292085}
+  m_Layer: 0
+  m_Name: Player1 Stat
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8436893285129292084
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8436893285129292087}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8436893285809044724}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8436893285129292085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8436893285129292087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94ed6780480bc1c4c8c52b61001d6574, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterName: Kane
+  playerLevel: 1
+  currentEXP: 175
+  expToNextLevel: 
+  maxLevel: 99
+  baseEXP: 1000
+  currentHP: 0
+  maxHP: 100
+  currentMP: 0
+  maxMP: 30
+  mpLvlBonus: 000000000000000000000000000000000000000005000000000000000000000000000000000000000500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000140000000000000000000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a0000000000000000000000000000000000000000000000000000000000000000000000000000000f0000000000000000000000000000000000000000000000000000000000000000000000000000001e000000000000000000000000000000000000000f000000000000000000000000000000000000000000000000000000000000000a000000
+  strength: 8
+  defence: 12
+  wpnPwr: 6
+  armrPwr: 5
+  equippedWpn: 
+  equippedArmr: 
+  charImage: {fileID: 21300000, guid: 6d3bd13968db1874abba6122500cd693, type: 3}
+--- !u!1 &8436893285809044726
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8436893285809044724}
+  - component: {fileID: 8436893285809044727}
+  - component: {fileID: 8436893286369137272}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8436893285809044724
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8436893285809044726}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.299766, y: 1.9984648, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 8436893285129292084}
+  - {fileID: 8436893287053861183}
+  - {fileID: 8436893286956155561}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8436893285809044727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8436893285809044726}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 516bccddbfaa5444cbdc498d227f7012, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerStats:
+  - {fileID: 8436893285129292085}
+  - {fileID: 8436893287053861180}
+  - {fileID: 8436893286956155560}
+  gameMenuOpen: 0
+  dialogActive: 0
+  fadingBetweenArea: 0
+  shopActive: 0
+  itemsHeld:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Health Potion
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Mana Potion
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Bronze Sword
+  - 
+  - 
+  - 
+  - 
+  numberOfItems: 00000000000000000000000000000000000000000500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000
+  itemReference:
+  - {fileID: 5203083119700999968, guid: 0538b47e16e573c43abb2c7cc917fb72, type: 3}
+  - {fileID: 101181881678724007, guid: 91ce31d41cc9aa04591c7c20dcb48558, type: 3}
+  - {fileID: 8808144395639414239, guid: 6029ef28c358dbf45952a1f2c1336a37, type: 3}
+  - {fileID: 2147350302610740785, guid: d4568e0aa8c56984bb8531e691170c5c, type: 3}
+  - {fileID: 6209946309859534546, guid: 318044b8aa2f34b44adeacd5f7367560, type: 3}
+  - {fileID: 2422639520649882339, guid: ea5794333a184ab4b833d893ece43e74, type: 3}
+  currentGold: 150
+--- !u!114 &8436893286369137272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8436893285809044726}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e6fc2cee848aa94aa5d5ded89ed329b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questMarkerNames:
+  - 
+  - Fight the Skeleton
+  - The Beginning
+  - Enter the Cave
+  - Saven the Realm
+  questMarkerComplete: 0000000000
+--- !u!1 &8436893286956155563
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8436893286956155561}
+  - component: {fileID: 8436893286956155560}
+  m_Layer: 0
+  m_Name: Player3 Stat
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &8436893286956155561
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8436893286956155563}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8436893285809044724}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8436893286956155560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8436893286956155563}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94ed6780480bc1c4c8c52b61001d6574, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterName: Ascondia
+  playerLevel: 1
+  currentEXP: 0
+  expToNextLevel: 
+  maxLevel: 99
+  baseEXP: 1000
+  currentHP: 0
+  maxHP: 60
+  currentMP: 0
+  maxMP: 40
+  mpLvlBonus: 
+  strength: 3
+  defence: 5
+  wpnPwr: 1
+  armrPwr: 3
+  equippedWpn: 
+  equippedArmr: 
+  charImage: {fileID: 21300000, guid: fb8cc55af4b7a034584793949fd90500, type: 3}
+--- !u!1 &8436893287053861182
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8436893287053861183}
+  - component: {fileID: 8436893287053861180}
+  m_Layer: 0
+  m_Name: Player2 Stat
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8436893287053861183
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8436893287053861182}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8436893285809044724}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8436893287053861180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8436893287053861182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94ed6780480bc1c4c8c52b61001d6574, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterName: Ascondia
+  playerLevel: 2
+  currentEXP: 210
+  expToNextLevel: 
+  maxLevel: 99
+  baseEXP: 1000
+  currentHP: 0
+  maxHP: 60
+  currentMP: 0
+  maxMP: 40
+  mpLvlBonus: 0000000000000000000000000000000005000000000000000000000000000000000000000000000005000000000000000000000000000000000000000f000000000000000000000000000000000000000a000000000000000000000000000000000000000a000000000000000000000000000000000000000f000000000000000000000000000000000000000f000000000000000000000000000000000000000f000000000000000000000000000000000000000f0000000000000000000000000000000000000019000000000000000000000000000000000000000a000000000000000000000000000000000000000a0000000000000000000000000000000000000000000000000000000000000000000000000000000f0000000000000000000000000000000000000000000000000000000000000000000000000000000f00000000000000000000000000000000000000000000000000000000000000000000000000000014000000000000000000000000000000000000000000000000000000000000000a000000
+  strength: 3
+  defence: 5
+  wpnPwr: 1
+  armrPwr: 3
+  equippedWpn: 
+  equippedArmr: 
+  charImage: {fileID: 21300000, guid: fb8cc55af4b7a034584793949fd90500, type: 3}
