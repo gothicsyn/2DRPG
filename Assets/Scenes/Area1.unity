@@ -630,26 +630,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 6211756153244729316, guid: 9cb9ed0ba63a58c4da110c172c8b40d0,
-        type: 3}
-      propertyPath: m_Offset.x
-      value: 0.015330642
-      objectReference: {fileID: 0}
-    - target: {fileID: 6211756153244729316, guid: 9cb9ed0ba63a58c4da110c172c8b40d0,
-        type: 3}
-      propertyPath: m_Size.x
-      value: 0.77423745
-      objectReference: {fileID: 0}
-    - target: {fileID: 6211756153244729316, guid: 9cb9ed0ba63a58c4da110c172c8b40d0,
-        type: 3}
-      propertyPath: m_Offset.y
-      value: -0.2524538
-      objectReference: {fileID: 0}
-    - target: {fileID: 6211756153244729316, guid: 9cb9ed0ba63a58c4da110c172c8b40d0,
-        type: 3}
-      propertyPath: m_Size.y
-      value: 1.6497936
-      objectReference: {fileID: 0}
     - target: {fileID: 7435215204348926559, guid: 9cb9ed0ba63a58c4da110c172c8b40d0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -705,35 +685,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7435215204348926559, guid: 9cb9ed0ba63a58c4da110c172c8b40d0,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.155
-      objectReference: {fileID: 0}
     - target: {fileID: 8116532058203735603, guid: 9cb9ed0ba63a58c4da110c172c8b40d0,
         type: 3}
       propertyPath: m_Name
       value: AreaExit (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8720066392898833196, guid: 9cb9ed0ba63a58c4da110c172c8b40d0,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -2.35
-      objectReference: {fileID: 0}
-    - target: {fileID: 8720066392898833196, guid: 9cb9ed0ba63a58c4da110c172c8b40d0,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9171724153924116690, guid: 9cb9ed0ba63a58c4da110c172c8b40d0,
-        type: 3}
-      propertyPath: areaTransitionName
-      value: 1-2
-      objectReference: {fileID: 0}
-    - target: {fileID: 9171724153924116690, guid: 9cb9ed0ba63a58c4da110c172c8b40d0,
-        type: 3}
-      propertyPath: areaToLoad
-      value: Shop
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9cb9ed0ba63a58c4da110c172c8b40d0, type: 3}
@@ -12861,11 +12816,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: GameManager
-      objectReference: {fileID: 0}
-    - target: {fileID: 8436893286369137272, guid: 9fe250c92db6ded4f885d0511644947c,
-        type: 3}
-      propertyPath: questMarkerNames.Array.data[4]
-      value: Save the Realm
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9fe250c92db6ded4f885d0511644947c, type: 3}
