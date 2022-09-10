@@ -23,4 +23,30 @@ public class AudioManager : MonoBehaviour
     {
         
     }
+
+    public void PlaySFX(int soundToPlay)
+    {
+        if (soundToPlay < sfx.Length)
+        {
+            sfx[soundToPlay].Play();
+        }
+    }
+
+    public void PlayBGM(int musicToPlay)
+    {
+        StopMusic();
+
+        if (musicToPlay < bgm.Length)
+        {
+            sfx[musicToPlay].Play();
+        }
+    }
+
+    public void StopMusic()
+    {
+        for(int i = 0; i < bgm.Length; i++)
+        {
+            bgm[i].Stop();
+        }
+    }
 }
