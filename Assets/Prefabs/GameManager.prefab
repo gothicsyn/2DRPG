@@ -228,7 +228,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 94ed6780480bc1c4c8c52b61001d6574, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  characterName: Ascondia
+  characterName: Anya
   playerLevel: 1
   currentEXP: 0
   expToNextLevel: 

@@ -40,7 +40,7 @@ public class AudioManager : MonoBehaviour
 
             if (musicToPlay < bgm.Length)
             {
-                sfx[musicToPlay].Play();
+                bgm[musicToPlay].Play();
             }
         }
     }
