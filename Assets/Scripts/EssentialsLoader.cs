@@ -30,6 +30,11 @@ public class EssentialsLoader : MonoBehaviour
         {
             Instantiate(gameMan);
         }
+
+        if (AudioManager.instance == null)
+        {
+            Instantiate(audioMan);
+        }
     }
 
     // Update is called once per frame

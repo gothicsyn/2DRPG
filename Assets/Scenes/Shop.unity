@@ -957,6 +957,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7516329706770896244, guid: 9cb9ed0ba63a58c4da110c172c8b40d0,
+        type: 3}
+      propertyPath: transitionName
+      value: 1-1
+      objectReference: {fileID: 0}
     - target: {fileID: 8116532058203735603, guid: 9cb9ed0ba63a58c4da110c172c8b40d0,
         type: 3}
       propertyPath: m_Name
@@ -976,6 +981,11 @@ PrefabInstance:
         type: 3}
       propertyPath: areaToLoad
       value: Area1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171724153924116690, guid: 9cb9ed0ba63a58c4da110c172c8b40d0,
+        type: 3}
+      propertyPath: areaTransitionName
+      value: 1-1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9cb9ed0ba63a58c4da110c172c8b40d0, type: 3}
