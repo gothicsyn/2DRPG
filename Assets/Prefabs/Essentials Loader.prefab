@@ -47,3 +47,5 @@ MonoBehaviour:
     type: 3}
   player: {fileID: 1494791453278687349, guid: 3881d4227eda4fb42896718e46d6faab, type: 3}
   gameMan: {fileID: 8436893285809044726, guid: 9fe250c92db6ded4f885d0511644947c, type: 3}
+  audioMan: {fileID: 4846171213801528440, guid: e8fc290ef891150429e8b81f11d2d3a7,
+    type: 3}

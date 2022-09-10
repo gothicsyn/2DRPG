@@ -10,6 +10,7 @@ public class EssentialsLoader : MonoBehaviour
     public GameObject UIScreen;
     public GameObject player;
     public GameObject gameMan;
+    public GameObject audioMan;
 
     // Start is called before the first frame update
     void Start()
